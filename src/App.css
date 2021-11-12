@@ -1,4 +1,9 @@
 .App-header {
   text-align: center;
-  margin: 30px auto;
+  margin: 50px auto;
+  font-size: 40px;
+}
+
+footer {
+  font-size: 10px;
 }
