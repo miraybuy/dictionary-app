@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import "./DictionaryForm.css";
+import axios from "axios";
 
 export default function DictionaryForm() {
   let [vocabulary, setVocabulary] = useState(" ");
+  function handleResponse(response) {
+    console.log(response.data[0]);
+  }
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${vocabulary}`);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${vocabulary}`;
+    axios.get(apiUrl).then(handleResponse);
   }
   function updateVocabulary(event) {
     setVocabulary(event.target.value);
