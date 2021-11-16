@@ -1,3 +1,21 @@
+.DictionaryForm section {
+  background-color: rgb(224, 227, 211);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 0 5px 5px rgb(0, 0, 0, 10%);
+}
+.DictionaryForm input {
+  width: 50%;
+  padding: 6px 4px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
 form {
   text-align: center;
+}
+.btn-branding {
+  margin: 5px;
+  background-color: rgb(188, 9, 15);
+  color: rgb(224, 227, 211);
 }

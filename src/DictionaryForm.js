@@ -20,19 +20,21 @@ export default function DictionaryForm() {
   }
   return (
     <div className="DictionaryForm">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          placeholder="Look for a word"
-          id="wordSearchbar"
-          autoFocus="on"
-          autoComplete="off"
-          onChange={updateVocabulary}
-        ></input>
-        <button type="submit" className="btn btn-primary" id="searchButton">
-          Search
-        </button>
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            placeholder="Look for a word"
+            id="wordSearchbar"
+            autoFocus="on"
+            autoComplete="off"
+            onChange={updateVocabulary}
+          ></input>
+          <button type="submit" className="btn btn-branding" id="searchButton">
+            Search
+          </button>
+        </form>
+      </section>
       <Results definition={definition} />
     </div>
   );
