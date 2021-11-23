@@ -12,7 +12,7 @@ export default function Meaning(props) {
             <p>
               {definition.definition}
               <br />
-              <em>{definition.example}</em>
+              <em className="text-muted ">{definition.example}</em>
               <Synonyms synonyms={definition.synonyms} />
             </p>
           </div>
