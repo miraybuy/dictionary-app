@@ -46,7 +46,7 @@ export default function DictionaryForm() {
           <form onSubmit={handleSubmit}>
             <input
               type="search"
-              placeholder="Look for a word"
+              placeholder="coding"
               id="wordSearchbar"
               autoFocus="on"
               autoComplete="off"

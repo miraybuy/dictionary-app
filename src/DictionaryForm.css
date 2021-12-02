@@ -1,5 +1,5 @@
 .DictionaryForm section {
-  background-color: rgb(224, 227, 211, 0.9);
+  background-color: rgb(218, 227, 222, 0.9);
   border-radius: 5px;
   margin: 20px;
   padding: 30px;
@@ -18,4 +18,61 @@ form {
   margin: 5px;
   background-color: rgb(188, 9, 15);
   color: rgb(224, 227, 211);
+}
+.btn-branding:hover {
+  background: rgb(0, 0, 0, 70%);
+  color: rgb(224, 227, 211);
+}
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.Meaning h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .example {
+  color: #70757a;
+  font-style: italic;
+  margin-top: 10px;
+}
+.Synonyms {
+  margin: 15px 0 0;
+  padding: 0;
+  color: rgb(188, 9, 15);
+}
+
+.Synonyms span {
+  font-size: 13px;
+  padding-right: 10px;
+  line-height: 1;
+}
+.Phonetic {
+  margin: 20px 0;
+}
+
+.Phonetic a {
+  background-color: rgb(188, 9, 15);
+  color: rgb(224, 227, 211);
+  border: 2px solid rgb(188, 9, 15);
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  background: rgb(0, 0, 0, 70%);
+  border: 2px solid rgb(0, 0, 0, 10%);
+  color: white;
+}
+
+.Phonetic .text {
+  opacity: 0.5;
+  font-weight: bold;
 }
